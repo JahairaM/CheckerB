@@ -24,4 +24,7 @@ def get_count(board, item):
         count += list(row).count(item)
     return count
 
+# This code runs only if this file is executed directly
+if __name__ == "__main__":
+    print("checkers.py is not intended to be run as a main script.")
 
